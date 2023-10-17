@@ -1,7 +1,7 @@
 let drop = false;
 document.querySelector(".menu-btn").addEventListener("click", () => {
   if (drop == false) {
-    document.querySelector(".menu-body").style.height = "400px";
+    document.querySelector(".menu-body").style.height = "270px";
     drop = true;
   } else {
     document.querySelector(".menu-body").style.height = "0px";
