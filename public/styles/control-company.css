@@ -1,0 +1,70 @@
+.control {
+  background-color: var(--background);
+}
+
+.control-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 5px;
+}
+
+.company-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.company-logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.company-logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo img {
+  object-fit: contain;
+}
+
+.company-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bussiness {
+  background-color: var(--background);
+}
+
+.bussiness h2,
+.bussiness p {
+  color: var(--white);
+}
+
+@media screen and (max-width: 770px) {
+  .control-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .company-block {
+    grid-template-columns: 1fr;
+  }
+
+  .company-info {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .company-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

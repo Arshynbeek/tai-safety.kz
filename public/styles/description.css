@@ -1,0 +1,53 @@
+.description {
+  margin-top: 90px;
+  width: 100%;
+  background-color: var(--foreground);
+}
+
+.description .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.idsaf-title {
+  font-size: 64px;
+}
+
+.description button {
+  border-radius: 20px;
+  padding: 8px 16px;
+  margin-bottom: 5px;
+}
+
+.description .content img {
+  width: 40vw;
+  height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .description {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .idsaf-title {
+    font-size: calc(20px + 2vw + 2vh);
+  }
+
+  .description h2 {
+    font-size: 16px;
+  }
+
+  .description .content {
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .description .content img {
+    width: 80%;
+    height: 80%;
+  }
+}

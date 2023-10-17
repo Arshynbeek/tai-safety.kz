@@ -1,0 +1,44 @@
+@import url("public/styles/lib.css");
+
+@import url("public/styles/archstyle.css");
+@import url("public/styles/header-footer.css");
+@import url("public/styles/description.css");
+@import url("public/styles/service.css");
+@import url("public/styles/crew.css");
+@import url("public/styles/control-company.css");
+@import url("public/styles/map.css");
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --background: #003361;
+  --foreground: #E8EEF7;
+  --primary: #0D6EFD;
+  --secondary: #6C757D;
+  --success: #D1E7DD;
+}
+
+h1, h2 {
+  font-family: "Montserrat";
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+section {
+  padding: 48px 0;
+}
+
+.content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
