@@ -11,7 +11,7 @@
 }
 
 .idsaf-title {
-  font-size: 64px;
+  font-size: calc(46px + 1vw + 1vh);
 }
 
 .description button {
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 750px) {
   .idsaf-title {
-    font-size: calc(20px + 2vw + 2vh);
+    font-size: calc(16px + 1.5vw + 1.5vh);
   }
 
   .description h2 {
